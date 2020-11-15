@@ -1,15 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HEY OH...LETS GO
-        </p>
+
+      <header className='header'>
+        <nav className='navBar content'>Nav</nav>
+        <p className='title content'>Evolve</p>
       </header>
+
+      <section id='section'>
+        <div className='section section1'>
+          <p className='content'>Content</p>
+        </div>
+      </section>
+
+      <section id='section'>
+        <div className='section section2'>
+          <p className='content'>Content</p>
+        </div>
+      </section>
+
+      <section id='section'>
+        <div className='section section3'>
+          <p className='content'>Content</p>
+        </div>
+      </section>
+
     </div>
   );
 }
